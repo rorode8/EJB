@@ -1,0 +1,12 @@
+/* AUTOMATICALLY GENERATED ON Thu Sep 23 10:10:50 CDT 2021*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.EJBMethodPermission "MySession", "getResult,Remote,";
+  permission javax.security.jacc.EJBMethodPermission "MySession", "sumaDos,Remote,int,int";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.EJBRoleRefPermission "MySession", "**";
+};
+
